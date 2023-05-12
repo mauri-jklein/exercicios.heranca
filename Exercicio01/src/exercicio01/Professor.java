@@ -20,7 +20,7 @@ public class Professor extends Funcionario{
     public String exibirDetalhes() {
         return "Professor{" + super.exibirDetalhes()+  "disciplina=" + disciplina + '}';
     }
-    
+
     @Override
     public double calcularBonusSalario() {
         return super.getSalario()*0.1;
